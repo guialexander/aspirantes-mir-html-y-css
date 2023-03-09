@@ -1,6 +1,15 @@
 h1 {
   color: blue;  
 }
-body{
+p.body{
     background-color: aquamarine;
+}
+
+.redondeado {
+  background-color: blue;
+  height: 200px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 20px 20px 20px;
 }

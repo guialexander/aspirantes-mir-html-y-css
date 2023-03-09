@@ -1,0 +1,46 @@
+@media (max-width:500px){
+form{
+    background-color: rgb(204, 49, 49);
+    height:100%;
+}
+}
+
+@media (min-width: 500px){
+    form{
+        background-color: rgb(49, 204, 67);
+        height:300px;  
+           
+    }
+    
+    }
+
+.form {
+    width: 300px;
+    padding: 20px;
+    border-top-left-radius:25px ;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom,#bd09b7, #6b4cf5);
+    color: #fff;
+    width: 20%;
+    margin: 25px auto;
+}
+form > label {
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    
+}
+form > input {
+    padding: 7px 0 0 0;
+}
+.boton{
+    text-align: right;
+}
+
+.divForm > input {
+    padding: 7px 0 0 0 ;
+    
+
+}

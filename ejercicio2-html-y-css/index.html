@@ -9,56 +9,34 @@
 </head>
 <body>
 
-    <div class="form"></div>
+    <div class="form">
         <h1>Login</h1>
         <form action="" method="" class="f2">
-            <label for="nombre">Email</label><br>
+            <label for="email">Email</label><br>
             <input type="email" ><br>
 
-            <label for="direccion">ESCRIBA SU DIRECCIÓN DE RESIDENCIA</label><br>
-            <input type="text">
-
-            <p>IDENTIFIQUE LOS PARQUES QUE TIENE SU LOCALIDAD</p>
-            <table>
-                <tr>
-                    <td>ANTONIO NARIÑO</td>
-                    <td><input type="checkbox"></td>
-    
-                </tr>
-
-                <tr>
-                    <td>CUATRO PARQUES</td>
-                    <td><input type="checkbox"></td>
-                </tr>
-
-                <tr>
-                    <td>PARQUE NACIONAL</td>
-                    <td><input type="checkbox"></td>
-                </tr>
-
-                <tr>
-                    <td>PARQUE EL CHICO</td>
-                    <td><input type="checkbox"></td>
-                </tr>
-            </table>
-
+            <label for="password">Pasword</label><br>
+            <input type="password">
             <br>
-            <label for="estrato">Seleccione el estrato de su vivienda</label><br>
-            <select name="estrato" id="">
+
+            <label for="genero">Género</label><br>
+            <select name="genero" id="">
                 <option value="0">Seleccione...</option>
-                <option value="uno">1</option>
-                <option value="dos">2</option>
-                <option value="tres">3</option>
-                <option value="cuatro">4</option>
-            </select>
-
-            <br><br>
-            <textarea name="comentarios" id="" cols="50" rows="10"></textarea>
-
-
-
+                <option value="mujer">Mujer</option>
+                <option value="otro">Otro</option>
+                <option value="hombre">Hombre</option>
+             </select>
+          
             <br>
-            <input type="submit" value="REGISTRAR INFORMACIÓN" class="botonf2">
+            <div class="divForm">
+                <input type="checkbox" name="aceptar"> 
+                <label for="mensaje">Acepto los términos</label>
+                
+            </div>
+
+            <div class="boton">
+                <input type="submit" value="Ingresar">
+            </div>
 
         </form>
     </div>
